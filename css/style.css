@@ -1,77 +1,16 @@
-html,body {
-    padding: 15px;
-    overflow: hidden;
-}
-h1, h3 {
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: 700;
-    margin-top: 3px;
-}
-p, li, input {
-    font-size: 13px;
-    font-family: 'Droid Sans', sans-serif;
-    font-weight: 400;
-    line-height: 1em;
-}
-a {
-    color: black;
-    text-decoration: none;
-    text-shadow:  1px 1px 1px #16161D;
-}
-#places {
-    float: left;
-    width: 280px;
-    padding-right: 20px;
-}
-.search {
-    background: #16161D;
-    color: white;
-    text-decoration: bold;
-    outline:0;
-    padding: 5px 10px 5px 15px;
-    border-radius: 0 15px 15px 0;
-    -webkit-border-radius: 0 15px 15px 0;
-}
-.example {
-    font-size: 12px;
-}
-.u {
-    font-style: underline;
-}
-.map {
-    padding-top: 20px;
-    margin-left: 300px;
-    background-position: left; 
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 500px;
-}
-.list {
-    visibility: hidden;
-    text-align: left;
-}
-.c {
-    text-align: center;
-}
-.f {
-    float: left;
-    width: 100%;
-    display: block;
-    position: relative;
-}
-.j {
-    width: 100%;
-    display: inline;
-}
-.l {
-    float: left;
-    width: 300px;
-}
-.r {
-    text-align: right;
-    display: block;
-    padding-right: 20px;
-}
-.fb-share-button{
-    top: -4px;
-}
+html,body {padding: 15px;overflow: hidden;}
+h1,h3 {font-family: 'Droid Sans', sans-serif;font-weight: 700;margin-top: 3px;}
+p,li,input {font-size: 13px;font-family: 'Droid Sans', sans-serif;font-weight: 400;line-height: 1em;}
+a {color: black;text-decoration: none;text-shadow:  1px 1px 1px #16161D;}
+#places {float: left;width: 280px;padding-right: 20px;}
+.search {background: #16161D;color: white;text-decoration: bold;outline:0;padding: 5px 10px 5px 15px;border-radius: 0 15px 15px 0;-webkit-border-radius: 0 15px 15px 0;}
+.example {font-size: 12px;}
+.u {font-style: underline;}
+.map {padding-top: 20px;margin-left: 300px;background-position: left;background-size: contain;background-repeat: no-repeat;height: 500px;}
+.list {visibility: hidden;text-align: left;}
+.c {text-align: center;}
+.f {float: left;width: 100%;display: block;position: relative;}
+.j {width: 100%;display: inline;}
+.l {float: left;width: 300px;}
+.r {text-align: right;display: block;padding-right: 20px;}
+.fb-share-button{top: -4px;}
